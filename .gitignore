@@ -1,0 +1,22 @@
+# Virtual environment
+venv/
+
+# Caches and artifacts
+.cache/
+__pycache__/
+*.pyc
+*.py[cod]
+.ipynb_checkpoints/
+
+# YOLO training logs & temporary weights (keep only the final best.pt and last.pt)
+runs/
+!best.pt
+!last.pt
+# VS Code / PyCharm / editors
+.vscode/
+.idea/
+*.code-workspace
+
+# OS junk
+.DS_Store
+Thumbs.db

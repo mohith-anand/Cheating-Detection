@@ -1,0 +1,10 @@
+# data.yaml
+# ←←← UPDATE THESE TWO LINES WITH YOUR OWN PATHS BEFORE RUNNING ←←←
+
+train: ./dataset/train/images          # ← change if your images are somewhere else
+val: ./dataset/valid/images            # ← change if your images are somewhere else
+
+# test: ./dataset/test/images          # (optional)
+
+nc: 2
+names: ['students_cheating', 'students_not_cheating']
